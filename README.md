@@ -23,7 +23,7 @@ O site formata automaticamente o texto digitado dependendo do campo de entrada e
 ## Como Executar
 
 ### Acesse o link abaixo
-link para o site: 
+<a href="https://nicolas-cyber279.github.io/Atv_javaScriptMascara/">Clique Aqui!</a>
 
 ## Status
 
