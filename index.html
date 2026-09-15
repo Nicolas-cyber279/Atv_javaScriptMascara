@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Da Silva Valadares">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <title>Atividade de Máscara</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <label for="inpNome">Nome: </label> <input type="text" placeholder="Nome completo" id="inpNome"
+                maxlength="50">
+
+            <label for="inpEndereco">Endereço: </label> <input type="text" placeholder="Endereço" id="inpEndereco"
+                maxlength="100">
+
+            <label for="inpCEP">CEP: </label> <input type="text" placeholder="99.999-999" id="inpCEP"
+                oninput="MascaraCEP()" maxlength="10">
+
+            <label for="inpCPF">CPF: </label> <input type="text" placeholder="999.999.999-99" id="inpCPF"
+                oninput="MascaraCPF()" maxlength="14">
+
+            <label for="inpTelefone">Telefone: </label> <input type="tel" placeholder="+55 (31) 99999-9999" id="inpTelefone"
+                oninput="MascaraTelefone()" maxlength="19">
+
+            <label for="inpCNPJ">CNPJ: </label> <input type="text" placeholder="99.999.999/9999-99" id="inpCNPJ"
+                oninput="MascaraCNPJ()" maxlength="18">
+
+            <button onclick="EnviarFormulario()">Enviar</button>
+        </form>
+
+    </main>
+</body>
+
+</html>

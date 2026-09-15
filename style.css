@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+
+    form {
+        width: 40%;
+        height: 70%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(7, 1fr);
+        gap: 3%;
+    }
+
+    #mensagemConfirmacao {
+        justify-self: center;    
+    }
+    
+    .esconder {
+        opacity: 0;
+    }
+}
